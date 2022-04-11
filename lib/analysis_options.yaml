@@ -33,7 +33,6 @@ linter:
     close_sinks: true
     comment_references: true
     control_flow_in_finally: true
-    diagnostic_describe_all_properties: true
     empty_statements: true
     hash_and_equals: true
     invariant_booleans: true

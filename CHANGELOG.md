@@ -1,3 +1,7 @@
+## 1.0.2
+
+* Remove [`diagnostic_describe_all_properties`](https://dart-lang.github.io/linter/lints/diagnostic_describe_all_properties.html)
+
 ## 1.0.1
 
 * Remove [`prefer_final_parameters`](https://dart-lang.github.io/linter/lints/prefer_final_parameters.html)
