@@ -1,3 +1,8 @@
+## 1.0.1
+
+* Remove [`prefer_final_parameters`](https://dart-lang.github.io/linter/lints/prefer_final_parameters.html)
+* Remove [`public_member_api_docs`](https://dart-lang.github.io/linter/lints/public_member_api_docs.html)
+
 ## 1.0.0
 
 * Initial release (Dart SDK version to 2.16)
