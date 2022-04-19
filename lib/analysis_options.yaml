@@ -62,7 +62,6 @@ linter:
     avoid_bool_literals_in_conditional_expressions: true
     avoid_catches_without_on_clauses: true
     avoid_catching_errors: true
-    avoid_classes_with_only_static_members: true
     avoid_double_and_int_checks: true
     avoid_equals_and_hash_code_on_mutable_classes: true
     avoid_escaping_inner_quotes: true
@@ -104,7 +103,6 @@ linter:
     eol_at_end_of_file: true
     exhaustive_cases: true
     file_names: true
-    flutter_style_todos: true
     implementation_imports: true
     join_return_with_assignment: true
     leading_newlines_in_multiline_strings: true

@@ -1,3 +1,8 @@
+## 1.0.3
+
+* Remove [`avoid_classes_with_only_static_members`](https://dart-lang.github.io/linter/lints/avoid_classes_with_only_static_members.html)
+* Remove [`flutter_style_todos`](https://dart-lang.github.io/linter/lints/flutter_style_todos.html)
+
 ## 1.0.2
 
 * Remove [`diagnostic_describe_all_properties`](https://dart-lang.github.io/linter/lints/diagnostic_describe_all_properties.html)
