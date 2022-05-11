@@ -1,5 +1,11 @@
 ## 1.0.3
 
+* Remove [`unawaited_futures`](https://dart-lang.github.io/linter/lints/unawaited_futures.html)
+* Update minimum Dart SDK to 2.17
+* Update README
+
+## 1.0.3
+
 * Remove [`avoid_classes_with_only_static_members`](https://dart-lang.github.io/linter/lints/avoid_classes_with_only_static_members.html)
 * Remove [`flutter_style_todos`](https://dart-lang.github.io/linter/lints/flutter_style_todos.html)
 
