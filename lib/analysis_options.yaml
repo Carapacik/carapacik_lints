@@ -108,7 +108,6 @@ linter:
     leading_newlines_in_multiline_strings: true
     library_names: true
     library_prefixes: true
-    library_private_types_in_public_api: true
     missing_whitespace_between_adjacent_strings: true
     no_default_cases: true
     no_leading_underscores_for_library_prefixes: true

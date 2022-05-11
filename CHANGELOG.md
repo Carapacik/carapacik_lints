@@ -1,7 +1,12 @@
-## 1.0.3
+## 1.1.1
+
+* Remove [`library_private_types_in_public_api`](https://dart-lang.github.io/linter/lints/library_private_types_in_public_api.html)
+* Set the minimum required Flutter SDK version to 3.0.0
+
+## 1.1.0
 
 * Remove [`unawaited_futures`](https://dart-lang.github.io/linter/lints/unawaited_futures.html)
-* Update minimum Dart SDK to 2.17
+* Bumped the minimum required Dart SDK version to 2.17
 * Update README
 
 ## 1.0.3
