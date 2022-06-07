@@ -1,3 +1,7 @@
+## 1.1.2
+
+* Remove dependency on Flutter
+
 ## 1.1.1
 
 * Remove [`library_private_types_in_public_api`](https://dart-lang.github.io/linter/lints/library_private_types_in_public_api.html)
