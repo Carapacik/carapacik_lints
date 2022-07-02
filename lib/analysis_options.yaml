@@ -12,6 +12,8 @@ analyzer:
 
   exclude:
     - '**/*.g.dart'
+    - '**/*.gr.dart'
+    - '**/*.gen.dart'
     - '**/*.freezed.dart'
     - 'lib/generated_plugin_registrant.dart'
     - 'build/**'
@@ -136,7 +138,6 @@ linter:
     prefer_constructors_over_static_methods: true
     prefer_contains: true
     prefer_equal_for_default_values: true
-    prefer_expression_function_bodies: true
     prefer_final_fields: true
     prefer_final_in_for_each: true
     prefer_final_locals: true

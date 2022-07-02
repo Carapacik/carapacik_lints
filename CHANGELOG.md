@@ -1,3 +1,8 @@
+## 1.1.3
+
+* Remove [`prefer_expression_function_bodies`](https://dart-lang.github.io/linter/lints/prefer_expression_function_bodies.html)
+* Ignore generated files (with .gr and .gen)
+
 ## 1.1.2
 
 * Remove dependency on Flutter
@@ -12,6 +17,10 @@
 * Remove [`unawaited_futures`](https://dart-lang.github.io/linter/lints/unawaited_futures.html)
 * Bumped the minimum required Dart SDK version to 2.17
 * Update README
+
+## 1.0.4
+
+* The same as in 1.1.3 only for Dart 2.16
 
 ## 1.0.3
 
