@@ -7,7 +7,7 @@ This package contains a recommended set of lints for Flutter apps, packages, and
 Add `carapacik_lints` as dev dependency to your `pubspec.yaml`.
 ```yaml
 dev_dependencies:
-  carapacik_lints: ^1.1.3
+  carapacik_lints: ^1.1.4
 ```
 or
 ```yaml
@@ -17,13 +17,13 @@ dev_dependencies:
       url: https://github.com/Carapacik/carapacik_lints.git
 ```
 
-For Dart 2.16 use version 1.0.x:
+For Flutter 2 and Dart 2.16 use version 1.0.5:
 ```yaml
-carapacik_lints: ^1.0.4
+carapacik_lints: ^1.0.5
 ```
 
 Create an `analysis_options.yaml` file at the root of the project with the following content:
 
 ```yaml
-include: package:carapacik_lints/analysis_options.yaml
+include: package:carapacik_lints/core.yaml
 ```
