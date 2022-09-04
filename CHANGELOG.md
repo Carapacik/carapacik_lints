@@ -1,3 +1,14 @@
+## 1.1.4
+
+* Add [`combinators_ordering`](https://dart-lang.github.io/linter/lints/combinators_ordering.html)
+* Add [`unreachable_from_main`](https://dart-lang.github.io/linter/lints/unreachable_from_main.html)
+* Add [`use_string_in_part_of_directives`](https://dart-lang.github.io/linter/lints/use_string_in_part_of_directives.html)
+* Add [`unawaited_futures`](https://dart-lang.github.io/linter/lints/unawaited_futures.html) back
+* Remove [`avoid_relative_lib_imports`](https://dart-lang.github.io/linter/lints/avoid_relative_lib_imports.html)
+* Remove [`invariant_booleans`](https://dart-lang.github.io/linter/lints/invariant_booleans.html)
+* Rename analysis_options.yaml to core.yaml
+* Remove .metadata file
+
 ## 1.1.3
 
 * Remove [`prefer_expression_function_bodies`](https://dart-lang.github.io/linter/lints/prefer_expression_function_bodies.html)
@@ -18,9 +29,13 @@
 * Bumped the minimum required Dart SDK version to 2.17
 * Update README
 
+## 1.0.5
+
+* The same as in 1.1.4 for Dart 2.16
+
 ## 1.0.4
 
-* The same as in 1.1.3 only for Dart 2.16
+* The same as in 1.1.3 for Dart 2.16
 
 ## 1.0.3
 
