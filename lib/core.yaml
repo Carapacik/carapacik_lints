@@ -39,6 +39,7 @@ linter:
     - close_sinks
     - comment_references
     - control_flow_in_finally
+    - discarded_futures
     - empty_statements
     - hash_and_equals
     - iterable_contains_unrelated_type
@@ -188,6 +189,7 @@ linter:
     - unnecessary_lambdas
     - unnecessary_late
     - unnecessary_nullable_for_final_variable_declarations
+    - unnecessary_null_aware_operator_on_extension_on_nullable
     - unnecessary_null_checks
     - unnecessary_overrides
     - unnecessary_parenthesis
@@ -195,6 +197,7 @@ linter:
     - unnecessary_string_escapes
     - unnecessary_string_interpolations
     - unnecessary_this
+    - unnecessary_to_list_in_spreads
     - use_colored_box
     - use_decorated_box
     - use_enums

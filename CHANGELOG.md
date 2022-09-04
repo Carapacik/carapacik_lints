@@ -1,3 +1,10 @@
+## 1.2.0
+
+* Bumped the minimum required Dart SDK version to 2.18
+* Add new rule: [`discarded_futures`](https://dart-lang.github.io/linter/lints/discarded_futures.html)
+* Add new rule: [`unnecessary_null_aware_operator_on_extension_on_nullable`](https://dart-lang.github.io/linter/lints/unnecessary_null_aware_operator_on_extension_on_nullable.html)
+* Add new rule: [`unnecessary_to_list_in_spreads`](https://dart-lang.github.io/linter/lints/unnecessary_to_list_in_spreads.html)
+
 ## 1.1.5
 
 * Remove [`combinators_ordering`](https://dart-lang.github.io/linter/lints/combinators_ordering.html)
