@@ -1,3 +1,10 @@
+## 1.1.5
+
+* Remove [`combinators_ordering`](https://dart-lang.github.io/linter/lints/combinators_ordering.html)
+* Remove [`prefer_final_locals`](https://dart-lang.github.io/linter/lints/prefer_final_locals.html)
+* Remove [`unreachable_from_main`](https://dart-lang.github.io/linter/lints/unreachable_from_main.html)
+* Remove [`use_string_in_part_of_directives`](https://dart-lang.github.io/linter/lints/use_string_in_part_of_directives.html)
+
 ## 1.1.4
 
 * Add [`combinators_ordering`](https://dart-lang.github.io/linter/lints/combinators_ordering.html)
@@ -28,6 +35,10 @@
 * Remove [`unawaited_futures`](https://dart-lang.github.io/linter/lints/unawaited_futures.html)
 * Bumped the minimum required Dart SDK version to 2.17
 * Update README
+
+## 1.0.6
+
+* Deleted not a recognized lint rules
 
 ## 1.0.5
 

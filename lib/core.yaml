@@ -99,7 +99,6 @@ linter:
     - camel_case_types
     - cascade_invocations
     - cast_nullable_to_non_nullable
-    - combinators_ordering
     - conditional_uri_does_not_exist
     - constant_identifier_names
     - curly_braces_in_flow_control_structures
@@ -146,7 +145,6 @@ linter:
     - prefer_equal_for_default_values
     - prefer_final_fields
     - prefer_final_in_for_each
-    - prefer_final_locals
     - prefer_for_elements_to_map_fromIterable
     - prefer_function_declarations_over_variables
     - prefer_generic_function_type_aliases
@@ -200,7 +198,6 @@ linter:
     - unnecessary_string_interpolations
     - unnecessary_this
     - unnecessary_to_list_in_spreads
-    - unreachable_from_main
     - use_colored_box
     - use_decorated_box
     - use_enums
@@ -214,7 +211,6 @@ linter:
     - use_raw_strings
     - use_setters_to_change_properties
     - use_string_buffers
-    - use_string_in_part_of_directives
     - use_super_parameters
     - use_test_throws_matchers
     - use_to_and_as_if_applicable
