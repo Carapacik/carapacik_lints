@@ -3,7 +3,9 @@
 * Remove [`combinators_ordering`](https://dart-lang.github.io/linter/lints/combinators_ordering.html)
 * Remove [`prefer_final_locals`](https://dart-lang.github.io/linter/lints/prefer_final_locals.html)
 * Remove [`unreachable_from_main`](https://dart-lang.github.io/linter/lints/unreachable_from_main.html)
-* Remove [`use_string_in_part_of_directives`](https://dart-lang.github.io/linter/lints/use_string_in_part_of_directives.html)
+* Remove [`discarded_futures`](https://dart-lang.github.io/linter/lints/discarded_futures.html)
+* Remove [`unnecessary_null_aware_operator_on_extension_on_nullable`](https://dart-lang.github.io/linter/lints/unnecessary_null_aware_operator_on_extension_on_nullable.html)
+* Remove [`unnecessary_to_list_in_spreads`](https://dart-lang.github.io/linter/lints/unnecessary_to_list_in_spreads.html)
 
 ## 1.1.4
 
