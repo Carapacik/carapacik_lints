@@ -40,7 +40,7 @@
 
 ## 1.0.6
 
-* Deleted not a recognized lint rules
+* Remove not recognized lint rules
 
 ## 1.0.5
 
