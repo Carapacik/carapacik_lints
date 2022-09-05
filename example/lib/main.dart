@@ -1,6 +1,9 @@
 void main() {
   const String hello = 'Hello';
-  final word = "World";
+  var word = "World";
 
   print('$hello' + word);
 }
+
+String get aboba => '🅰🅱🅾🅱🅰'
+    '';

@@ -1,3 +1,21 @@
+## 1.2.2
+
+* Remove [`unnecessary_final`](https://dart-lang.github.io/linter/lints/unnecessary_final.html) again
+* Add new method to example
+
+## 1.2.1
+
+* Remove [`avoid_classes_with_only_static_members`](https://dart-lang.github.io/linter/lints/avoid_classes_with_only_static_members.html)
+* Remove [`unnecessary_final`](https://dart-lang.github.io/linter/lints/unnecessary_final.html)
+* Add [`prefer_final_locals`](https://dart-lang.github.io/linter/lints/prefer_final_locals.html)
+
+## 1.2.0
+
+* Bumped the minimum required Dart SDK version to 2.18
+* Add new rule: [`discarded_futures`](https://dart-lang.github.io/linter/lints/discarded_futures.html)
+* Add new rule: [`unnecessary_null_aware_operator_on_extension_on_nullable`](https://dart-lang.github.io/linter/lints/unnecessary_null_aware_operator_on_extension_on_nullable.html)
+* Add new rule: [`unnecessary_to_list_in_spreads`](https://dart-lang.github.io/linter/lints/unnecessary_to_list_in_spreads.html)
+
 ## 1.1.6
 
 * The same as in 1.2.1 for Dart 2.17
