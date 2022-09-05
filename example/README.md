@@ -5,7 +5,7 @@ An example project that showcases how to enable the lint set from `package:carap
 Add `carapacik_lints` as dev dependency to your `pubspec.yaml`.
 ```yaml
 dev_dependencies:
-  carapacik_lints: 1.0.7
+  carapacik_lints: 1.1.6
 ```
 or
 ```yaml
@@ -13,6 +13,11 @@ dev_dependencies:
   carapacik_lints:
     git:
       url: https://github.com/Carapacik/carapacik_lints.git
+```
+
+For Flutter 2 and Dart 2.16 use version 1.0.x:
+```yaml
+  carapacik_lints: 1.0.7
 ```
 
 Create an `analysis_options.yaml` file at the root of the project with the following content:

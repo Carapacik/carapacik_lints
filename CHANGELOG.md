@@ -1,3 +1,47 @@
+## 1.1.6
+
+* The same as in 1.2.1 for Dart 2.17
+
+## 1.1.5
+
+* Remove [`combinators_ordering`](https://dart-lang.github.io/linter/lints/combinators_ordering.html)
+* Remove [`prefer_final_locals`](https://dart-lang.github.io/linter/lints/prefer_final_locals.html)
+* Remove [`unreachable_from_main`](https://dart-lang.github.io/linter/lints/unreachable_from_main.html)
+* Remove [`discarded_futures`](https://dart-lang.github.io/linter/lints/discarded_futures.html)
+* Remove [`unnecessary_null_aware_operator_on_extension_on_nullable`](https://dart-lang.github.io/linter/lints/unnecessary_null_aware_operator_on_extension_on_nullable.html)
+* Remove [`unnecessary_to_list_in_spreads`](https://dart-lang.github.io/linter/lints/unnecessary_to_list_in_spreads.html)
+
+## 1.1.4
+
+* Add [`combinators_ordering`](https://dart-lang.github.io/linter/lints/combinators_ordering.html)
+* Add [`unreachable_from_main`](https://dart-lang.github.io/linter/lints/unreachable_from_main.html)
+* Add [`use_string_in_part_of_directives`](https://dart-lang.github.io/linter/lints/use_string_in_part_of_directives.html)
+* Add [`unawaited_futures`](https://dart-lang.github.io/linter/lints/unawaited_futures.html) back
+* Remove [`avoid_relative_lib_imports`](https://dart-lang.github.io/linter/lints/avoid_relative_lib_imports.html)
+* Remove [`invariant_booleans`](https://dart-lang.github.io/linter/lints/invariant_booleans.html)
+* Rename analysis_options.yaml to core.yaml
+* Remove .metadata file
+
+## 1.1.3
+
+* Remove [`prefer_expression_function_bodies`](https://dart-lang.github.io/linter/lints/prefer_expression_function_bodies.html)
+* Ignore generated files (with .gr and .gen)
+
+## 1.1.2
+
+* Remove dependency on Flutter
+
+## 1.1.1
+
+* Remove [`library_private_types_in_public_api`](https://dart-lang.github.io/linter/lints/library_private_types_in_public_api.html)
+* Set the minimum required Flutter SDK version to 3.0.0
+
+## 1.1.0
+
+* Remove [`unawaited_futures`](https://dart-lang.github.io/linter/lints/unawaited_futures.html)
+* Bumped the minimum required Dart SDK version to 2.17
+* Update README
+
 ## 1.0.7
 
 * The same as in 1.2.1 for Dart 2.16
