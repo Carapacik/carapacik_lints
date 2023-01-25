@@ -1,16 +1,4 @@
 analyzer:
-  exclude:
-    - '**/*.g.dart'
-    - '**/*.gr.dart'
-    - '**/*.gen.dart'
-    - '**/*.freezed.dart'
-    - 'lib/generated_plugin_registrant.dart'
-    - 'build/**'
-
-  strong-mode:
-    implicit-casts: false
-    implicit-dynamic: false
-
   language:
     strict-casts: true
     strict-inference: true
@@ -21,11 +9,19 @@ analyzer:
     missing_required_param: error
     missing_return: error
     todo: ignore
-    parameter_assignments: warning
+
+  exclude:
+    - '**/*.g.dart'
+    - '**/*.gr.dart'
+    - '**/*.gen.dart'
+    - '**/*.mocks.dart'
+    - '**/*.freezed.dart'
+    - 'lib/generated_plugin_registrant.dart'
+    - 'build/**'
 
 linter:
   rules:
-    # Error rules
+    # Error
     - always_use_package_imports
     - avoid_dynamic_calls
     - avoid_empty_else
@@ -37,6 +33,7 @@ linter:
     - avoid_web_libraries_in_flutter
     - cancel_subscriptions
     - close_sinks
+    - collection_methods_unrelated_type
     - comment_references
     - control_flow_in_finally
     - discarded_futures
@@ -58,7 +55,7 @@ linter:
     - use_key_in_widget_constructors
     - valid_regexps
 
-    # Style rules
+    # Style
     - always_declare_return_types
     - always_put_control_body_on_new_line
     - always_put_required_named_parameters_first
@@ -69,6 +66,7 @@ linter:
     - avoid_catches_without_on_clauses
     - avoid_catching_errors
     - avoid_double_and_int_checks
+    - avoid_equals_and_hash_code_on_mutable_classes
     - avoid_escaping_inner_quotes
     - avoid_field_initializers_in_const_classes
     - avoid_function_literals_in_foreach_calls
@@ -77,15 +75,14 @@ linter:
     - avoid_js_rounded_ints
     - avoid_multiple_declarations_per_line
     - avoid_null_checks_in_equality_operators
-    - avoid_equals_and_hash_code_on_mutable_classes
     - avoid_positional_boolean_parameters
     - avoid_private_typedef_functions
     - avoid_redundant_argument_values
     - avoid_renaming_method_parameters
+    - avoid_return_types_on_setters
     - avoid_returning_null
     - avoid_returning_null_for_void
     - avoid_returning_this
-    - avoid_return_types_on_setters
     - avoid_setters_without_getters
     - avoid_shadowing_type_parameters
     - avoid_single_cascade_in_expression_statements
@@ -98,29 +95,34 @@ linter:
     - camel_case_types
     - cascade_invocations
     - cast_nullable_to_non_nullable
+    - combinators_ordering
     - conditional_uri_does_not_exist
     - constant_identifier_names
     - curly_braces_in_flow_control_structures
+    - dangling_library_doc_comments
     - deprecated_consistency
     - directives_ordering
     - do_not_use_environment
     - empty_catches
     - empty_constructor_bodies
+    - enable_null_safety
     - eol_at_end_of_file
     - exhaustive_cases
     - file_names
     - implementation_imports
+    - implicit_call_tearoffs
     - join_return_with_assignment
     - leading_newlines_in_multiline_strings
+    - library_annotations
     - library_names
     - library_prefixes
     - missing_whitespace_between_adjacent_strings
     - no_default_cases
-    - non_constant_identifier_names
     - no_leading_underscores_for_library_prefixes
     - no_leading_underscores_for_local_identifiers
-    - noop_primitive_operations
     - no_runtimeType_toString
+    - non_constant_identifier_names
+    - noop_primitive_operations
     - null_check_on_nullable_type_parameter
     - null_closures
     - omit_local_variable_types
@@ -152,15 +154,15 @@ linter:
     - prefer_if_null_operators
     - prefer_initializing_formals
     - prefer_inlined_adds
-    - prefer_interpolation_to_compose_strings
     - prefer_int_literals
+    - prefer_interpolation_to_compose_strings
     - prefer_is_empty
     - prefer_is_not_empty
     - prefer_is_not_operator
     - prefer_iterable_whereType
     - prefer_mixin
-    - prefer_null_aware_operators
     - prefer_null_aware_method_calls
+    - prefer_null_aware_operators
     - prefer_single_quotes
     - prefer_spread_collections
     - prefer_typing_uninitialized_variables
@@ -181,15 +183,16 @@ linter:
     - unnecessary_brace_in_string_interps
     - unnecessary_const
     - unnecessary_constructor_name
-    - unnecessary_new
-    - unnecessary_null_aware_assignments
-    - unnecessary_null_in_if_null_operators
     - unnecessary_getters_setters
     - unnecessary_lambdas
     - unnecessary_late
-    - unnecessary_nullable_for_final_variable_declarations
+    - unnecessary_library_directive
+    - unnecessary_new
+    - unnecessary_null_aware_assignments
     - unnecessary_null_aware_operator_on_extension_on_nullable
     - unnecessary_null_checks
+    - unnecessary_null_in_if_null_operators
+    - unnecessary_nullable_for_final_variable_declarations
     - unnecessary_overrides
     - unnecessary_parenthesis
     - unnecessary_raw_strings
@@ -197,6 +200,7 @@ linter:
     - unnecessary_string_interpolations
     - unnecessary_this
     - unnecessary_to_list_in_spreads
+    - unreachable_from_main
     - use_colored_box
     - use_decorated_box
     - use_enums
@@ -206,16 +210,17 @@ linter:
     - use_is_even_rather_than_modulo
     - use_late_for_private_fields_and_variables
     - use_named_constants
-    - use_rethrow_when_possible
     - use_raw_strings
+    - use_rethrow_when_possible
     - use_setters_to_change_properties
     - use_string_buffers
+    - use_string_in_part_of_directives
     - use_super_parameters
     - use_test_throws_matchers
     - use_to_and_as_if_applicable
     - void_checks
 
-    # Pub rules
+    # Pub
     - depend_on_referenced_packages
     - package_names
     - secure_pubspec_urls

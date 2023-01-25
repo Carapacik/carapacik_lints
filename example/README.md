@@ -5,7 +5,7 @@ An example project that showcases how to enable the lint set from `package:carap
 Add `carapacik_lints` as dev dependency to your `pubspec.yaml`.
 ```yaml
 dev_dependencies:
-  carapacik_lints: ^1.2.2
+  carapacik_lints: ^1.3.0
 ```
 or
 ```yaml
@@ -15,7 +15,7 @@ dev_dependencies:
       url: https://github.com/Carapacik/carapacik_lints.git
 ```
 
-For Flutter 2 and Dart 2.16 use version 1.0.x:
+For Flutter 2 and Dart 2.16 use version 1.0.7:
 ```yaml
   carapacik_lints: 1.0.7
 ```

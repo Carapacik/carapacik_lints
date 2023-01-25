@@ -1,3 +1,18 @@
+## 1.3.0
+
+* Bumped the minimum required Dart SDK version to 2.19
+* Add [`collection_methods_unrelated_type`](https://dart-lang.github.io/linter/lints/collection_methods_unrelated_type.html)
+* Add [`combinators_ordering`](https://dart-lang.github.io/linter/lints/combinators_ordering.html)
+* Add [`dangling_library_doc_comments`](https://dart-lang.github.io/linter/lints/dangling_library_doc_comments.html)
+* Add [`enable_null_safety`](https://dart-lang.github.io/linter/lints/enable_null_safety.html)
+* Add [`implicit_call_tearoffs`](https://dart-lang.github.io/linter/lints/implicit_call_tearoffs.html)
+* Add [`library_annotations`](https://dart-lang.github.io/linter/lints/library_annotations.html)
+* Add [`unnecessary_library_directive`](https://dart-lang.github.io/linter/lints/unnecessary_library_directive.html)
+* Add [`unreachable_from_main`](https://dart-lang.github.io/linter/lints/unreachable_from_main.html)
+* Add [`use_string_in_part_of_directives`](https://dart-lang.github.io/linter/lints/use_string_in_part_of_directives.html)
+* Remove `strong-mode` section
+* Change license
+
 ## 1.2.2
 
 * Remove [`unnecessary_final`](https://dart-lang.github.io/linter/lints/unnecessary_final.html) again
