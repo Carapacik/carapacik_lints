@@ -5,7 +5,7 @@ An example project that showcases how to enable the lint set from `package:carap
 Add `carapacik_lints` as dev dependency to your `pubspec.yaml`.
 ```yaml
 dev_dependencies:
-  carapacik_lints: ^1.3.0
+  carapacik_lints: ^1.3.1
 ```
 or
 ```yaml

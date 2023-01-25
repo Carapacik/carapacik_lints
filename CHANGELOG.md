@@ -1,3 +1,7 @@
+## 1.3.1
+
+* Set Dart sdk version '>=2.19.0 <3.0.0'
+
 ## 1.3.0
 
 * Bumped the minimum required Dart SDK version to 2.19
