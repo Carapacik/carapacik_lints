@@ -1,3 +1,7 @@
+## 1.3.2
+
+* Remove [`prefer_equal_for_default_values`](https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html)
+
 ## 1.3.1
 
 * Set Dart sdk version '>=2.19.0 <3.0.0'
@@ -17,6 +21,10 @@
 * Remove `strong-mode` section
 * Change license
 
+## 1.2.3
+
+* Remove [`prefer_equal_for_default_values`](https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html)
+
 ## 1.2.2
 
 * Remove [`unnecessary_final`](https://dart-lang.github.io/linter/lints/unnecessary_final.html) again
@@ -34,6 +42,10 @@
 * Add new rule: [`discarded_futures`](https://dart-lang.github.io/linter/lints/discarded_futures.html)
 * Add new rule: [`unnecessary_null_aware_operator_on_extension_on_nullable`](https://dart-lang.github.io/linter/lints/unnecessary_null_aware_operator_on_extension_on_nullable.html)
 * Add new rule: [`unnecessary_to_list_in_spreads`](https://dart-lang.github.io/linter/lints/unnecessary_to_list_in_spreads.html)
+
+## 1.1.7
+
+* Remove [`prefer_equal_for_default_values`](https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html)
 
 ## 1.1.6
 
@@ -78,6 +90,10 @@
 * Remove [`unawaited_futures`](https://dart-lang.github.io/linter/lints/unawaited_futures.html)
 * Bumped the minimum required Dart SDK version to 2.17
 * Update README
+
+## 1.0.8
+
+* Remove [`prefer_equal_for_default_values`](https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html)
 
 ## 1.0.7
 
