@@ -1,16 +1,4 @@
 analyzer:
-  exclude:
-    - '**/*.g.dart'
-    - '**/*.gr.dart'
-    - '**/*.gen.dart'
-    - '**/*.freezed.dart'
-    - 'lib/generated_plugin_registrant.dart'
-    - 'build/**'
-
-  strong-mode:
-    implicit-casts: false
-    implicit-dynamic: false
-
   language:
     strict-casts: true
     strict-inference: true
@@ -20,8 +8,15 @@ analyzer:
     invalid_annotation_target: ignore
     missing_required_param: error
     missing_return: error
-    todo: ignore
-    parameter_assignments: warning
+
+  exclude:
+    - '**/*.g.dart'
+    - '**/*.gr.dart'
+    - '**/*.gen.dart'
+    - '**/*.mocks.dart'
+    - '**/*.freezed.dart'
+    - 'lib/generated_plugin_registrant.dart'
+    - 'build/**'
 
 linter:
   rules:
@@ -141,7 +136,6 @@ linter:
     - prefer_const_literals_to_create_immutables
     - prefer_constructors_over_static_methods
     - prefer_contains
-    - prefer_equal_for_default_values
     - prefer_final_fields
     - prefer_final_in_for_each
     - prefer_final_locals

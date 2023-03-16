@@ -1,6 +1,6 @@
 name: carapacik_lints
 description: The most necessary lints for Flutter to encourage good coding practices.
-version: 1.2.2
+version: 1.2.3
 repository: 'https://github.com/Carapacik/carapacik_lints'
 environment:
   sdk: '>=2.18.0 <3.0.0'
