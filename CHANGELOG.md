@@ -1,3 +1,7 @@
+## 1.0.8
+
+* Remove [`prefer_equal_for_default_values`](https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html)
+
 ## 1.0.7
 
 * The same as in 1.2.1 for Dart 2.16
