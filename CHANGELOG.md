@@ -1,3 +1,7 @@
+## 1.1.7
+
+* Remove [`prefer_equal_for_default_values`](https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html)
+
 ## 1.1.6
 
 * The same as in 1.2.1 for Dart 2.17
@@ -41,6 +45,10 @@
 * Remove [`unawaited_futures`](https://dart-lang.github.io/linter/lints/unawaited_futures.html)
 * Bumped the minimum required Dart SDK version to 2.17
 * Update README
+
+## 1.0.8
+
+* Remove [`prefer_equal_for_default_values`](https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html)
 
 ## 1.0.7
 
