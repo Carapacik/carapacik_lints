@@ -1,3 +1,18 @@
+## 1.4.0
+
+* Update minimum Dart SDK version to 3.0
+* Add new lints:
+  * [`implicit_reopen`](https://dart-lang.github.io/linter/lints/implicit_reopen.html)
+  * [`invalid_case_patterns`](https://dart-lang.github.io/linter/lints/invalid_case_patterns.html)
+  * [`type_literal_in_constant_pattern`](https://dart-lang.github.io/linter/lints/type_literal_in_constant_pattern.html)
+  * [`unnecessary_breaks`](https://dart-lang.github.io/linter/lints/unnecessary_breaks.html)
+  * [`flutter_style_todos`](https://dart-lang.github.io/linter/lints/flutter_style_todos.html)
+* Remove lints:
+  * [`avoid_returning_null_for_future`](https://dart-lang.github.io/linter/lints/avoid_returning_null_for_future.html)
+  * [`always_require_non_null_named_parameters`](https://dart-lang.github.io/linter/lints/always_require_non_null_named_parameters.html)
+  * [`avoid_returning_null`](https://dart-lang.github.io/linter/lints/avoid_returning_null.html)
+  * [`enable_null_safety`](https://dart-lang.github.io/linter/lints/enable_null_safety.html)
+
 ## 1.3.2
 
 * Remove [`prefer_equal_for_default_values`](https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html)
