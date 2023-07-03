@@ -1,3 +1,7 @@
+## 1.4.1
+
+* Add topics
+
 ## 1.4.0
 
 * Update minimum Dart SDK version to 3.0
