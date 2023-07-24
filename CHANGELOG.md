@@ -1,3 +1,9 @@
+## 1.4.2
+
+* Remove lints:
+  * [`do_not_use_environment`](https://dart.dev/tools/linter-rules/do_not_use_environment)
+  * [`one_member_abstracts`](https://dart.dev/tools/linter-rules/one_member_abstracts)
+
 ## 1.4.1
 
 * Add topics
@@ -6,20 +12,20 @@
 
 * Update minimum Dart SDK version to 3.0
 * Add new lints:
-  * [`implicit_reopen`](https://dart-lang.github.io/linter/lints/implicit_reopen.html)
-  * [`invalid_case_patterns`](https://dart-lang.github.io/linter/lints/invalid_case_patterns.html)
-  * [`type_literal_in_constant_pattern`](https://dart-lang.github.io/linter/lints/type_literal_in_constant_pattern.html)
-  * [`unnecessary_breaks`](https://dart-lang.github.io/linter/lints/unnecessary_breaks.html)
-  * [`flutter_style_todos`](https://dart-lang.github.io/linter/lints/flutter_style_todos.html)
+  * [`implicit_reopen`](https://dart.dev/tools/linter-rules/implicit_reopen)
+  * [`invalid_case_patterns`](https://dart.dev/tools/linter-rules/invalid_case_patterns)
+  * [`type_literal_in_constant_pattern`](https://dart.dev/tools/linter-rules/type_literal_in_constant_pattern)
+  * [`unnecessary_breaks`](https://dart.dev/tools/linter-rules/unnecessary_breaks)
+  * [`flutter_style_todos`](https://dart.dev/tools/linter-rules/flutter_style_todos)
 * Remove lints:
-  * [`avoid_returning_null_for_future`](https://dart-lang.github.io/linter/lints/avoid_returning_null_for_future.html)
-  * [`always_require_non_null_named_parameters`](https://dart-lang.github.io/linter/lints/always_require_non_null_named_parameters.html)
-  * [`avoid_returning_null`](https://dart-lang.github.io/linter/lints/avoid_returning_null.html)
-  * [`enable_null_safety`](https://dart-lang.github.io/linter/lints/enable_null_safety.html)
+  * [`avoid_returning_null_for_future`](https://dart.dev/tools/linter-rules/avoid_returning_null_for_future)
+  * [`always_require_non_null_named_parameters`](https://dart.dev/tools/linter-rules/always_require_non_null_named_parameters)
+  * [`avoid_returning_null`](https://dart.dev/tools/linter-rules/avoid_returning_null)
+  * [`enable_null_safety`](https://dart.dev/tools/linter-rules/enable_null_safety)
 
 ## 1.3.2
 
-* Remove [`prefer_equal_for_default_values`](https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html)
+* Remove [`prefer_equal_for_default_values`](https://dart.dev/tools/linter-rules/prefer_equal_for_default_values)
 
 ## 1.3.1
 
@@ -28,43 +34,46 @@
 ## 1.3.0
 
 * Bumped the minimum required Dart SDK version to 2.19
-* Add [`collection_methods_unrelated_type`](https://dart-lang.github.io/linter/lints/collection_methods_unrelated_type.html)
-* Add [`combinators_ordering`](https://dart-lang.github.io/linter/lints/combinators_ordering.html)
-* Add [`dangling_library_doc_comments`](https://dart-lang.github.io/linter/lints/dangling_library_doc_comments.html)
-* Add [`enable_null_safety`](https://dart-lang.github.io/linter/lints/enable_null_safety.html)
-* Add [`implicit_call_tearoffs`](https://dart-lang.github.io/linter/lints/implicit_call_tearoffs.html)
-* Add [`library_annotations`](https://dart-lang.github.io/linter/lints/library_annotations.html)
-* Add [`unnecessary_library_directive`](https://dart-lang.github.io/linter/lints/unnecessary_library_directive.html)
-* Add [`unreachable_from_main`](https://dart-lang.github.io/linter/lints/unreachable_from_main.html)
-* Add [`use_string_in_part_of_directives`](https://dart-lang.github.io/linter/lints/use_string_in_part_of_directives.html)
+* Add new lints:
+  * [`collection_methods_unrelated_type`](https://dart.dev/tools/linter-rules/collection_methods_unrelated_type)
+  * [`combinators_ordering`](https://dart.dev/tools/linter-rules/combinators_ordering)
+  * [`dangling_library_doc_comments`](https://dart.dev/tools/linter-rules/dangling_library_doc_comments)
+  * [`enable_null_safety`](https://dart.dev/tools/linter-rules/enable_null_safety)
+  * [`implicit_call_tearoffs`](https://dart.dev/tools/linter-rules/implicit_call_tearoffs)
+  * [`library_annotations`](https://dart.dev/tools/linter-rules/library_annotations)
+  * [`unnecessary_library_directive`](https://dart.dev/tools/linter-rules/unnecessary_library_directive)
+  * [`unreachable_from_main`](https://dart.dev/tools/linter-rules/unreachable_from_main)
+  * [`use_string_in_part_of_directives`](https://dart.dev/tools/linter-rules/use_string_in_part_of_directives)
 * Remove `strong-mode` section
 * Change license
 
 ## 1.2.3
 
-* Remove [`prefer_equal_for_default_values`](https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html)
+* Remove [`prefer_equal_for_default_values`](https://dart.dev/tools/linter-rules/prefer_equal_for_default_values)
 
 ## 1.2.2
 
-* Remove [`unnecessary_final`](https://dart-lang.github.io/linter/lints/unnecessary_final.html) again
+* Remove [`unnecessary_final`](https://dart.dev/tools/linter-rules/unnecessary_final) again
 * Add new method to example
 
 ## 1.2.1
 
-* Remove [`avoid_classes_with_only_static_members`](https://dart-lang.github.io/linter/lints/avoid_classes_with_only_static_members.html)
-* Remove [`unnecessary_final`](https://dart-lang.github.io/linter/lints/unnecessary_final.html)
-* Add [`prefer_final_locals`](https://dart-lang.github.io/linter/lints/prefer_final_locals.html)
+* Remove lints:
+  * [`avoid_classes_with_only_static_members`](https://dart.dev/tools/linter-rules/avoid_classes_with_only_static_members)
+  + [`unnecessary_final`](https://dart.dev/tools/linter-rules/unnecessary_final)
+* Add [`prefer_final_locals`](https://dart.dev/tools/linter-rules/prefer_final_locals)
 
 ## 1.2.0
 
 * Bumped the minimum required Dart SDK version to 2.18
-* Add new rule: [`discarded_futures`](https://dart-lang.github.io/linter/lints/discarded_futures.html)
-* Add new rule: [`unnecessary_null_aware_operator_on_extension_on_nullable`](https://dart-lang.github.io/linter/lints/unnecessary_null_aware_operator_on_extension_on_nullable.html)
-* Add new rule: [`unnecessary_to_list_in_spreads`](https://dart-lang.github.io/linter/lints/unnecessary_to_list_in_spreads.html)
+* Add new lints:
+  * [`discarded_futures`](https://dart.dev/tools/linter-rules/discarded_futures)
+  * [`unnecessary_null_aware_operator_on_extension_on_nullable`](https://dart.dev/tools/linter-rules/unnecessary_null_aware_operator_on_extension_on_nullable)
+  * [`unnecessary_to_list_in_spreads`](https://dart.dev/tools/linter-rules/unnecessary_to_list_in_spreads)
 
 ## 1.1.7
 
-* Remove [`prefer_equal_for_default_values`](https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html)
+* Remove [`prefer_equal_for_default_values`](https://dart.dev/tools/linter-rules/prefer_equal_for_default_values)
 
 ## 1.1.6
 
@@ -72,27 +81,30 @@
 
 ## 1.1.5
 
-* Remove [`combinators_ordering`](https://dart-lang.github.io/linter/lints/combinators_ordering.html)
-* Remove [`prefer_final_locals`](https://dart-lang.github.io/linter/lints/prefer_final_locals.html)
-* Remove [`unreachable_from_main`](https://dart-lang.github.io/linter/lints/unreachable_from_main.html)
-* Remove [`discarded_futures`](https://dart-lang.github.io/linter/lints/discarded_futures.html)
-* Remove [`unnecessary_null_aware_operator_on_extension_on_nullable`](https://dart-lang.github.io/linter/lints/unnecessary_null_aware_operator_on_extension_on_nullable.html)
-* Remove [`unnecessary_to_list_in_spreads`](https://dart-lang.github.io/linter/lints/unnecessary_to_list_in_spreads.html)
+* Remove lints:
+  * [`combinators_ordering`](https://dart.dev/tools/linter-rules/combinators_ordering)
+  * [`prefer_final_locals`](https://dart.dev/tools/linter-rules/prefer_final_locals)
+  * [`unreachable_from_main`](https://dart.dev/tools/linter-rules/unreachable_from_main)
+  * [`discarded_futures`](https://dart.dev/tools/linter-rules/discarded_futures)
+  * [`unnecessary_null_aware_operator_on_extension_on_nullable`](https://dart.dev/tools/linter-rules/unnecessary_null_aware_operator_on_extension_on_nullable)
+  * [`unnecessary_to_list_in_spreads`](https://dart.dev/tools/linter-rules/unnecessary_to_list_in_spreads)
 
 ## 1.1.4
 
-* Add [`combinators_ordering`](https://dart-lang.github.io/linter/lints/combinators_ordering.html)
-* Add [`unreachable_from_main`](https://dart-lang.github.io/linter/lints/unreachable_from_main.html)
-* Add [`use_string_in_part_of_directives`](https://dart-lang.github.io/linter/lints/use_string_in_part_of_directives.html)
-* Add [`unawaited_futures`](https://dart-lang.github.io/linter/lints/unawaited_futures.html) back
-* Remove [`avoid_relative_lib_imports`](https://dart-lang.github.io/linter/lints/avoid_relative_lib_imports.html)
-* Remove [`invariant_booleans`](https://dart-lang.github.io/linter/lints/invariant_booleans.html)
+* Add new lints:
+  * [`combinators_ordering`](https://dart.dev/tools/linter-rules/combinators_ordering)
+  * [`unreachable_from_main`](https://dart.dev/tools/linter-rules/unreachable_from_main)
+  * [`use_string_in_part_of_directives`](https://dart.dev/tools/linter-rules/use_string_in_part_of_directives)
+  * [`unawaited_futures`](https://dart.dev/tools/linter-rules/unawaited_futures)
+* Remove lints:
+  * [`avoid_relative_lib_imports`](https://dart.dev/tools/linter-rules/avoid_relative_lib_imports)
+  * [`invariant_booleans`](https://dart.dev/tools/linter-rules/invariant_booleans)
 * Rename analysis_options.yaml to core.yaml
 * Remove .metadata file
 
 ## 1.1.3
 
-* Remove [`prefer_expression_function_bodies`](https://dart-lang.github.io/linter/lints/prefer_expression_function_bodies.html)
+* Remove [`prefer_expression_function_bodies`](https://dart.dev/tools/linter-rules/prefer_expression_function_bodies)
 * Ignore generated files (with .gr and .gen)
 
 ## 1.1.2
@@ -101,18 +113,18 @@
 
 ## 1.1.1
 
-* Remove [`library_private_types_in_public_api`](https://dart-lang.github.io/linter/lints/library_private_types_in_public_api.html)
+* Remove [`library_private_types_in_public_api`](https://dart.dev/tools/linter-rules/library_private_types_in_public_api)
 * Set the minimum required Flutter SDK version to 3.0.0
 
 ## 1.1.0
 
-* Remove [`unawaited_futures`](https://dart-lang.github.io/linter/lints/unawaited_futures.html)
+* Remove [`unawaited_futures`](https://dart.dev/tools/linter-rules/unawaited_futures)
 * Bumped the minimum required Dart SDK version to 2.17
 * Update README
 
 ## 1.0.8
 
-* Remove [`prefer_equal_for_default_values`](https://dart-lang.github.io/linter/lints/prefer_equal_for_default_values.html)
+* Remove [`prefer_equal_for_default_values`](https://dart.dev/tools/linter-rules/prefer_equal_for_default_values)
 
 ## 1.0.7
 
@@ -132,18 +144,18 @@
 
 ## 1.0.3
 
-* Remove [`avoid_classes_with_only_static_members`](https://dart-lang.github.io/linter/lints/avoid_classes_with_only_static_members.html)
-* Remove [`flutter_style_todos`](https://dart-lang.github.io/linter/lints/flutter_style_todos.html)
+* Remove [`avoid_classes_with_only_static_members`](https://dart.dev/tools/linter-rules/avoid_classes_with_only_static_members)
+* Remove [`flutter_style_todos`](https://dart.dev/tools/linter-rules/flutter_style_todos)
 
 ## 1.0.2
 
-* Remove [`diagnostic_describe_all_properties`](https://dart-lang.github.io/linter/lints/diagnostic_describe_all_properties.html)
+* Remove [`diagnostic_describe_all_properties`](https://dart.dev/tools/linter-rules/diagnostic_describe_all_properties)
 
 ## 1.0.1
 
-* Remove [`prefer_final_parameters`](https://dart-lang.github.io/linter/lints/prefer_final_parameters.html)
-* Remove [`public_member_api_docs`](https://dart-lang.github.io/linter/lints/public_member_api_docs.html)
+* Remove [`prefer_final_parameters`](https://dart.dev/tools/linter-rules/prefer_final_parameters)
+* Remove [`public_member_api_docs`](https://dart.dev/tools/linter-rules/public_member_api_docs)
 
 ## 1.0.0
 
-* Initial release (Dart SDK version to 2.16)
+* Initial release

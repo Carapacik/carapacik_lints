@@ -100,7 +100,6 @@ linter:
     - dangling_library_doc_comments
     - deprecated_consistency
     - directives_ordering
-    - do_not_use_environment
     - empty_catches
     - empty_constructor_bodies
     - eol_at_end_of_file
@@ -123,7 +122,6 @@ linter:
     - null_check_on_nullable_type_parameter
     - null_closures
     - omit_local_variable_types
-    - one_member_abstracts
     - only_throw_errors
     - overridden_fields
     - package_api_docs
