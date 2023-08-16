@@ -45,6 +45,8 @@ linter:
     - no_adjacent_strings_in_list
     - no_duplicate_case_values
     - no_logic_in_create_state
+    - no_self_assignments
+    - no_wildcard_variable_uses
     - prefer_void_to_null
     - test_types_in_equals
     - throw_in_finally

@@ -1,3 +1,10 @@
+## 1.5.0
+
+* Update minimum Dart SDK version to 3.1
+* Add new lints:
+  * [`no_self_assignments`](https://dart.dev/tools/linter-rules/no_self_assignments)
+  * [`no_wildcard_variable_uses`](https://dart.dev/tools/linter-rules/no_wildcard_variable_uses)
+
 ## 1.4.2
 
 * Remove lints:
