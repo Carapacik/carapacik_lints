@@ -107,6 +107,7 @@ linter:
     - eol_at_end_of_file
     - exhaustive_cases
     - file_names
+    - flutter_style_todos
     - implementation_imports
     - implicit_call_tearoffs
     - join_return_with_assignment
@@ -114,10 +115,12 @@ linter:
     - library_annotations
     - library_names
     - library_prefixes
+    - matching_super_parameters
     - missing_whitespace_between_adjacent_strings
     - no_default_cases
     - no_leading_underscores_for_library_prefixes
     - no_leading_underscores_for_local_identifiers
+    - no_literal_bool_comparisons
     - no_runtimeType_toString
     - non_constant_identifier_names
     - noop_primitive_operations

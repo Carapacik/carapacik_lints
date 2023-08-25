@@ -1,3 +1,10 @@
+## 1.5.1
+
+* Add lints:
+  * [`flutter_style_todos`](https://dart.dev/tools/linter-rules/flutter_style_todos)
+  * [`matching_super_parameters`](https://dart.dev/tools/linter-rules/matching_super_parameters)
+  * [`no_literal_bool_comparisons`](https://dart.dev/tools/linter-rules/no_literal_bool_comparisons)
+
 ## 1.5.0
 
 * Update minimum Dart SDK version to 3.1
@@ -23,7 +30,6 @@
   * [`invalid_case_patterns`](https://dart.dev/tools/linter-rules/invalid_case_patterns)
   * [`type_literal_in_constant_pattern`](https://dart.dev/tools/linter-rules/type_literal_in_constant_pattern)
   * [`unnecessary_breaks`](https://dart.dev/tools/linter-rules/unnecessary_breaks)
-  * [`flutter_style_todos`](https://dart.dev/tools/linter-rules/flutter_style_todos)
 * Remove lints:
   * [`avoid_returning_null_for_future`](https://dart.dev/tools/linter-rules/avoid_returning_null_for_future)
   * [`always_require_non_null_named_parameters`](https://dart.dev/tools/linter-rules/always_require_non_null_named_parameters)
