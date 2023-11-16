@@ -1,3 +1,11 @@
+## 1.6.0
+* Update minimum Dart SDK version to 3.2
+* Add lints:
+  * [`annotate_redeclares`](https://dart.dev/tools/linter-rules/annotate_redeclares)
+* Remove lints:
+  * [`iterable_contains_unrelated_type`](https://dart.dev/tools/linter-rules/iterable_contains_unrelated_type)
+  * [`list_remove_unrelated_type`](https://dart.dev/tools/linter-rules/list_remove_unrelated_type)
+
 ## 1.5.1
 
 * Add lints:
