@@ -1,3 +1,6 @@
+## 1.7.0
+* Update minimum Dart SDK version to 3.3
+
 ## 1.6.0
 * Update minimum Dart SDK version to 3.2
 * Add lints:
