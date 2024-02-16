@@ -4,6 +4,8 @@ version: 1.7.0
 repository: https://github.com/Carapacik/carapacik_lints
 topics:
   - analysis
+  - lint
   - lints
+  - linter
 environment:
   sdk: ^3.3.0
