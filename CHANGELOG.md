@@ -1,3 +1,10 @@
+## 1.8.0
+* Update minimum Dart SDK version to 3.4
+* Add lints:
+  * [`missing_code_block_language_in_doc_comment`](https://dart.dev/tools/linter-rules/missing_code_block_language_in_doc_comment)
+  * [`unintended_html_in_doc_comment`](https://dart.dev/tools/linter-rules/unintended_html_in_doc_comment)
+  * [`unnecessary_library_name`](https://dart.dev/tools/linter-rules/unnecessary_library_name)
+
 ## 1.7.0
 * Update minimum Dart SDK version to 3.3
 
