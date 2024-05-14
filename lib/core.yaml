@@ -49,7 +49,6 @@ linter:
     - prefer_void_to_null
     - test_types_in_equals
     - throw_in_finally
-    - unintended_html_in_doc_comment
     - unnecessary_statements
     - unrelated_type_equality_checks
     - unsafe_html

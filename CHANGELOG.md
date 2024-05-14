@@ -1,3 +1,7 @@
+## 1.8.1
+* Remove lints:
+  * [`unintended_html_in_doc_comment`](https://dart.dev/tools/linter-rules/unintended_html_in_doc_comment)
+
 ## 1.8.0
 * Update minimum Dart SDK version to 3.4
 * Add lints:

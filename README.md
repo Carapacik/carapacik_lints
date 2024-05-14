@@ -7,7 +7,7 @@ This package contains a recommended set of lints for Flutter apps, packages, and
 Add `carapacik_lints` as dev dependency to your `pubspec.yaml`.
 ```yaml
 dev_dependencies:
-  carapacik_lints: ^1.8.0
+  carapacik_lints: ^1.8.1
 ```
 
 Create an `analysis_options.yaml` file at the root of the project with the following content:
@@ -26,4 +26,4 @@ include: package:carapacik_lints/core.yaml
 | 3.13.x  | 3.1.x  | 1.5.1   |
 | 3.16.x  | 3.2.x  | 1.6.0   |
 | 3.19.x  | 3.3.x  | 1.7.0   |
-| 3.22.x  | 3.4.x  | 1.8.0   |
+| 3.22.x  | 3.4.x  | 1.8.1   |

@@ -5,4 +5,4 @@ environment:
   sdk: ^3.4.0
 
 dev_dependencies:
-  carapacik_lints: ^1.8.0
+  carapacik_lints: ^1.8.1
