@@ -1,3 +1,10 @@
+## 1.9.0
+* Update minimum Dart SDK version to 3.5
+* Add lints:
+  * [`document_ignores`](https://dart.dev/tools/linter-rules/document_ignores)
+  * [`invalid_runtime_check_with_js_interop_types`](https://dart.dev/tools/linter-rules/invalid_runtime_check_with_js_interop_types)
+  * [`unnecessary_library_name`](https://dart.dev/tools/linter-rules/unnecessary_library_name)
+
 ## 1.8.1
 * Remove lints:
   * [`unintended_html_in_doc_comment`](https://dart.dev/tools/linter-rules/unintended_html_in_doc_comment)

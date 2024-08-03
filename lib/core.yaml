@@ -39,6 +39,7 @@ linter:
     - hash_and_equals
     - implicit_reopen
     - invalid_case_patterns
+    - invalid_runtime_check_with_js_interop_types
     - literal_only_boolean_expressions
     - missing_code_block_language_in_doc_comment
     - no_adjacent_strings_in_list
@@ -49,6 +50,7 @@ linter:
     - prefer_void_to_null
     - test_types_in_equals
     - throw_in_finally
+    - unintended_html_in_doc_comment
     - unnecessary_statements
     - unrelated_type_equality_checks
     - unsafe_html
@@ -102,6 +104,7 @@ linter:
     - dangling_library_doc_comments
     - deprecated_consistency
     - directives_ordering
+    - document_ignores
     - empty_catches
     - empty_constructor_bodies
     - eol_at_end_of_file
