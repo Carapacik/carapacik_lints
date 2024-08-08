@@ -1,3 +1,7 @@
+## 1.9.1
+* Remove lints:
+  * [`document_ignores`](https://dart.dev/tools/linter-rules/document_ignores)
+
 ## 1.9.0
 * Update minimum Dart SDK version to 3.5
 * Add lints:

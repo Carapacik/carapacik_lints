@@ -104,7 +104,6 @@ linter:
     - dangling_library_doc_comments
     - deprecated_consistency
     - directives_ordering
-    - document_ignores
     - empty_catches
     - empty_constructor_bodies
     - eol_at_end_of_file
