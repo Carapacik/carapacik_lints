@@ -1,3 +1,7 @@
+## 1.9.2
+* Remove lints:
+  * [`unsafe_html`](https://dart.dev/tools/linter-rules/unsafe_html)
+
 ## 1.9.1
 * Remove lints:
   * [`document_ignores`](https://dart.dev/tools/linter-rules/document_ignores)
