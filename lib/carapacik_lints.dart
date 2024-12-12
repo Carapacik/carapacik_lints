@@ -4,7 +4,7 @@
 /// 1. Add it to your dev_dependencies
 /// ```yaml
 /// dev_dependencies:
-///   carapacik_lints: ^1.9.2
+///   carapacik_lints: ^1.10.0
 /// ```
 ///
 /// 2. Include the rules into your `analysis_options.yaml`
