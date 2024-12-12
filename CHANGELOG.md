@@ -2,9 +2,11 @@
 * Update minimum Dart SDK version to 3.6
 * Add lints:
   * [`avoid_futureor_void`](https://dart.dev/tools/linter-rules/avoid_futureor_void)
+  * [`always_use_package_imports`](https://dart.dev/tools/linter-rules/always_use_package_imports)
   * [`use_truncating_division`](https://dart.dev/tools/linter-rules/use_truncating_division)
 * Remove lints:
   * [`avoid_null_checks_in_equality_operators`](https://dart.dev/tools/linter-rules/avoid_null_checks_in_equality_operators)
+  * [`package_api_docs`](https://dart.dev/tools/linter-rules/package_api_docs)
 
 ## 1.9.2
 * Remove lints:
