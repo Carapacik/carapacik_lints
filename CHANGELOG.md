@@ -1,3 +1,8 @@
+## 1.11.1
+* Remove lints:
+  * [`omit_obvious_property_types`](https://dart.dev/tools/linter-rules/omit_obvious_property_types)
+  * [`unnecessary_async`](https://dart.dev/tools/linter-rules/unnecessary_async)
+
 ## 1.11.0
 * Update minimum Dart SDK version to 3.7
 * Add lints:
