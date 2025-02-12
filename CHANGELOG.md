@@ -1,3 +1,14 @@
+## 1.11.0
+* Update minimum Dart SDK version to 3.7
+* Add lints:
+  * [`omit_obvious_property_types`](https://dart.dev/tools/linter-rules/omit_obvious_property_types)
+  * [`strict_top_level_inference`](https://dart.dev/tools/linter-rules/strict_top_level_inference)
+  * [`unnecessary_async`](https://dart.dev/tools/linter-rules/unnecessary_async)
+  * [`unnecessary_underscores`](https://dart.dev/tools/linter-rules/unnecessary_underscores)
+  * [`unsafe_variance`](https://dart.dev/tools/linter-rules/unsafe_variance)
+* Temporary remove lints:
+  * [`require_trailing_commas`](https://dart.dev/tools/linter-rules/require_trailing_commas)
+
 ## 1.10.0
 * Update minimum Dart SDK version to 3.6
 * Add lints:
