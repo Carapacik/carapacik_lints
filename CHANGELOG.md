@@ -1,3 +1,8 @@
+## 1.12.0
+* Update minimum Dart SDK version to 3.8
+* Add lints:
+  * [`unnecessary_ignore`](https://dart.dev/tools/linter-rules/unnecessary_ignore)
+
 ## 1.11.1
 * Remove lints:
   * [`omit_obvious_property_types`](https://dart.dev/tools/linter-rules/omit_obvious_property_types)
