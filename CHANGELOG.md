@@ -2,6 +2,7 @@
 * Update minimum Dart SDK version to 3.8
 * Add lints:
   * [`unnecessary_ignore`](https://dart.dev/tools/linter-rules/unnecessary_ignore)
+  * [`use_null_aware_elements`](https://dart.dev/tools/linter-rules/use_null_aware_elements)
 
 ## 1.11.1
 * Remove lints:
