@@ -2,7 +2,7 @@ name: example
 description: A project that showcases how to enable lints for Flutter apps.
 publish_to: none
 environment:
-  sdk: ^3.6.0
+  sdk: ^3.8.0
 
 dev_dependencies:
-  carapacik_lints: ^1.10.0
+  carapacik_lints: ^1.12.0
