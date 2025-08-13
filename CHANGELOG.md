@@ -1,3 +1,9 @@
+## 1.13.0
+* Update minimum Dart SDK version to 3.9
+* Add lints:
+  * [`switch_on_type`](https://dart.dev/tools/linter-rules/switch_on_type)
+  * [`unnecessary_unawaited`](https://dart.dev/tools/linter-rules/unnecessary_unawaited)
+
 ## 1.12.0
 * Update minimum Dart SDK version to 3.8
 * Add lints:
