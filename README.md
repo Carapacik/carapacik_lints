@@ -8,7 +8,7 @@ Add `carapacik_lints` as dev dependency to your `pubspec.yaml`.
 
 ```yaml
 dev_dependencies:
-  carapacik_lints: ^1.13.0
+  carapacik_lints: ^1.14.0
 ```
 
 Create an `analysis_options.yaml` file at the root of the project with the following content:
@@ -35,3 +35,4 @@ include: package:carapacik_lints/core.yaml
 | 3.29.x  | 3.7.x  | 1.11.1  |
 | 3.32.x  | 3.8.x  | 1.12.0  |
 | 3.35.x  | 3.9.x  | 1.13.0  |
+| 3.38.x  | 3.10.x | 1.14.0  |

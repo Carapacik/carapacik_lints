@@ -1,3 +1,8 @@
+## 1.14.0
+* Update minimum Dart SDK version to 3.10
+* Add lints:
+  * [`remove_deprecations_in_breaking_versions`](https://dart.dev/tools/linter-rules/remove_deprecations_in_breaking_versions)
+
 ## 1.13.0
 * Update minimum Dart SDK version to 3.9
 * Add lints:

@@ -159,6 +159,7 @@ linter:
     - prefer_void_to_null
     - provide_deprecation_message
     - recursive_getters
+    - remove_deprecations_in_breaking_versions
     - secure_pubspec_urls
     - sized_box_for_whitespace
     - sized_box_shrink_expand
