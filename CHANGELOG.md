@@ -1,3 +1,6 @@
+## 3.10.0
+* Package version is now equal to the Dart version
+
 ## 1.14.0
 * Update minimum Dart SDK version to 3.10
 * Add lints:
