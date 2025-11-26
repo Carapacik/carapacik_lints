@@ -1,3 +1,7 @@
+## 3.10.1
+* Remove lint:
+  * [`omit_local_variable_types`](https://dart.dev/tools/linter-rules/omit_local_variable_types)
+
 ## 3.10.0
 * Package version is now equal to the Dart version
 
