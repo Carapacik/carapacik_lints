@@ -1,3 +1,7 @@
+## 3.10.2
+* Remove lint:
+  * [`no_adjacent_strings_in_list`](https://dart.dev/tools/linter-rules/no_adjacent_strings_in_list)
+
 ## 3.10.1
 * Remove lint:
   * [`omit_local_variable_types`](https://dart.dev/tools/linter-rules/omit_local_variable_types)

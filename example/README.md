@@ -6,7 +6,7 @@ Add it to your dev_dependencies
 
 ```yaml
 dev_dependencies:
-  carapacik_lints: ^3.10.1
+  carapacik_lints: ^3.10.2
 ```
 
 Include the rules into your `analysis_options.yaml`
