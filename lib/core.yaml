@@ -152,6 +152,7 @@ linter:
     - recursive_getters
     - remove_deprecations_in_breaking_versions
     - secure_pubspec_urls
+    - simplify_variable_pattern
     - sized_box_for_whitespace
     - sized_box_shrink_expand
     - slash_for_doc_comments
