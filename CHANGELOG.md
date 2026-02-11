@@ -1,3 +1,10 @@
+## 3.11.0
+* Add lints:
+  * [`simplify_variable_pattern`](https://dart.dev/tools/linter-rules/simplify_variable_pattern)
+* Remove lint:
+  * [`avoid_null_checks_in_equality_operators`](https://dart.dev/tools/linter-rules/avoid_null_checks_in_equality_operators)
+  * [`use_if_null_to_convert_nulls_to_bools`](https://dart.dev/tools/linter-rules/use_if_null_to_convert_nulls_to_bools)
+
 ## 3.10.2
 * Remove lint:
   * [`no_adjacent_strings_in_list`](https://dart.dev/tools/linter-rules/no_adjacent_strings_in_list)
