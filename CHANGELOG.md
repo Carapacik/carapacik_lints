@@ -1,3 +1,7 @@
+## 3.12.0
+* Add lints:
+  * [`var_with_no_type_annotation`](https://dart.dev/tools/linter-rules/var_with_no_type_annotation)
+
 ## 3.11.0
 * Add lints:
   * [`simplify_variable_pattern`](https://dart.dev/tools/linter-rules/simplify_variable_pattern)
