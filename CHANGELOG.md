@@ -1,5 +1,7 @@
 ## 3.12.0
 * Add lints:
+  * [`avoid_final_parameters`](https://dart.dev/tools/linter-rules/avoid_final_parameters)
+  * [`no_adjacent_strings_in_list`](https://dart.dev/tools/linter-rules/no_adjacent_strings_in_list)
   * [`var_with_no_type_annotation`](https://dart.dev/tools/linter-rules/var_with_no_type_annotation)
 
 ## 3.11.0
