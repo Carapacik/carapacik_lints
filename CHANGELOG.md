@@ -1,3 +1,7 @@
+## 3.13.1
+
+* Removes the deprecated [`unnecessary_await_in_return`](https://dart.dev/tools/linter-rules/unnecessary_await_in_return) lint.
+
 ## 3.13.0
 
 * Updates the minimum Dart SDK version to 3.13.
