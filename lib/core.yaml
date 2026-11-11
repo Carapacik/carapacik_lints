@@ -78,6 +78,7 @@ linter:
     - exhaustive_cases
     - file_names
     - flutter_style_todos
+    - future_sync_value
     - hash_and_equals
     - implementation_imports
     - implicit_call_tearoffs
@@ -198,6 +199,7 @@ linter:
     - unnecessary_string_escapes
     - unnecessary_string_interpolations
     - unnecessary_this
+    - unnecessary_this_alias
     - unnecessary_to_list_in_spreads
     - unnecessary_type_name_in_constructor
     - unnecessary_unawaited

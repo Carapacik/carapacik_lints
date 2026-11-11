@@ -1,3 +1,10 @@
+## 3.14.0
+
+* Updates the minimum Dart SDK version to 3.14.
+* Adds the following lints:
+  * [`future_sync_value`](https://dart.dev/tools/linter-rules/future_sync_value).
+  * [`unnecessary_this_alias`](https://dart.dev/tools/linter-rules/unnecessary_this_alias) (experimental).
+
 ## 3.13.1
 
 * Removes the deprecated [`unnecessary_await_in_return`](https://dart.dev/tools/linter-rules/unnecessary_await_in_return) lint.
